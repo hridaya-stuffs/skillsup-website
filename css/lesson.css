@@ -1,0 +1,122 @@
+/* Reset and default styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    margin-bottom: 3rem !important;
+}
+
+.heading {
+    padding-left: 3rem;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* Lessons styles */
+.lessons {
+    margin: 1rem;
+}
+
+.lesson1,
+.lesson2,
+.lesson3,
+.lesson4 {
+    padding-left: 2.25rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.lesson4 {
+    margin-bottom: 5rem !important;
+}
+
+.circle {
+    height: 42px;
+    width: 44px;
+    background-color: #c4c4c4;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child1 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20.57px;
+}
+
+.child2 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.52px;
+}
+
+/* Button styles */
+.btn {
+    appearance: none;
+    background-color: #000;
+    outline: 0px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: #000;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+.btn:disabled {
+    background-color: #222;
+    color: #ddd;
+    cursor: default;
+}
+
+.btn:active {
+    color: #000;
+    background-color: #fff;
+    transition: none 0s;
+}
+
+.btn:before {
+    display: none;
+}
+
+.btn::-webkit-details-marker {
+    display: none;
+}
+
+/* Image styles */
+.image-1 {
+    padding-left: 34px;
+    height: 139px;
+    width: 291px;
+    margin-bottom: 35px !important;
+}
+
+/* Next section styles */
+.next {
+    text-align: center;
+}

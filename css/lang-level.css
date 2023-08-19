@@ -1,0 +1,135 @@
+/* Reset and default styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Container styles */
+.main-container {
+    margin: 1rem;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Scrollable div styles */
+.scrollable-div {
+    overflow: scroll;
+    overflow-y: auto;
+    border-radius: 20px;
+    background-color: #7e00db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 14rem;
+    margin: 1rem;
+    margin-bottom: 91px !important;
+}
+
+/* Ending text styles */
+.ending-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    padding-bottom: 5rem;
+}
+
+/* Paragraph styles */
+p {
+    color: white;
+    font-weight: 700;
+}
+
+/* Button styles */
+.btn {
+    appearance: none;
+    background-color: #000;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+
+/* Hover styles */
+.btn:hover {
+    background-color: #000;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+/* Disabled styles */
+.btn:disabled {
+    background-color: #222;
+    color: #ddd;
+    cursor: default;
+}
+
+/* Active styles */
+.btn:active {
+    color: #000;
+    background-color: #fff;
+    transition: none 0s;
+}
+
+.btn:before {
+    display: none;
+}
+
+.btn::-webkit-details-marker {
+    display: none;
+}
+
+/* Start button styles */
+.button-start {
+    text-align: center;
+}
+
+/* Level content styles */
+.level-content:hover {
+    width: 80%;
+}
+
+/* Levels styles */
+.levels:hover {
+    text-align: center;
+    font-size: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    opacity: 1;
+    filter: blur(0);
+}
+
+/* Heading styles */
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 53px;
+    line-height: 30.26px;
+}

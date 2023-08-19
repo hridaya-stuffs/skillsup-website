@@ -1,0 +1,108 @@
+/* Reset and default styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Container styles */
+.main-container {
+    margin: 1rem;
+}
+
+/* Top Heading styles */
+.top-heading h2 {
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Language Box styles */
+.lang-box-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    gap: 4rem;
+    margin: 4rem 0rem;
+}
+
+/* Next section styles */
+.next {
+    text-align: center;
+}
+
+/* Button styles */
+.lang-box-1 button,
+.btn {
+    appearance: none;
+    background-color: #000;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    border-radius: 6px;
+    width: 5rem;
+    text-align: center;
+}
+
+.lang-box-1 button {
+    background-color: #6244DD;
+    border-color: #6244DD;
+    color: white;
+    border-radius: 10px;
+    height: 3rem;
+    width: 8rem;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20.57px;
+    border: none !important;
+}
+
+/* Hover styles */
+.btn:hover {
+    background-color: #000;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+/* Disabled styles */
+.btn:disabled {
+    background-color: #222;
+    color: #ddd;
+    cursor: default;
+}
+
+/* Active styles */
+.btn:active {
+    color: #000;
+    background-color: #fff;
+    transition: none 0s;
+}
+
+.btn:before {
+    display: none;
+}
+
+.btn::-webkit-details-marker {
+    display: none;
+}

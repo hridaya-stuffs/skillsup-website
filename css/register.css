@@ -1,0 +1,141 @@
+/* Reset and default styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Container styles */
+.main-container {
+    margin: 1rem;
+}
+
+/* Text alignment */
+.text-center {
+    text-align: center;
+}
+
+.text-center p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* Hello section styles */
+.hello {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5rem;
+}
+
+.hello-1 {
+    font-size: 27px;
+    font-weight: 700;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hello-2 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Form styles */
+.forms {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    margin-bottom: 2rem;
+}
+
+.forms input {
+    margin-bottom: 2rem;
+}
+
+input {
+    font-size: 15px;
+}
+
+/* Input styles */
+input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+/* Checkbox styles */
+.checkbox {
+    font-size: 12px;
+    display: flex;
+    align-items: baseline;
+}
+
+.checkbox input {
+    width: 15px;
+    height: 11px;
+}
+
+/* Confirm input styles */
+.confirm input {
+    margin-bottom: 1rem !important;
+}
+
+/* Signup section styles */
+.signup {
+    margin-bottom: 2rem;
+}
+
+.signup p {
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    margin-bottom: 0;
+}
+
+.signup p a {
+    text-decoration: none;
+    color: #7e00db;
+}
+
+.signup hr {
+    width: 148px;
+    border: 2px solid #7e00db;
+    margin-right: 0;
+}
+
+/* Logos section styles */
+.logos {
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    margin-bottom: 3rem;
+}
+
+/* Already account styles */
+.already-account {
+    padding-left: 1rem;
+    font-size: 15px;
+}
+
+.already-account a {
+    text-decoration: none;
+    color: #7e00db;
+    font-weight: 900;
+}
+
+/* Link styles */
+.header a,
+.logos a {
+    text-decoration: none;
+    color: #000000;
+}
