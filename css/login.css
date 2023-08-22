@@ -117,3 +117,7 @@ input[type=text] {
     font-weight: 500;
     text-decoration: none;
 }
+
+.form input:focus {
+    outline: none;
+}
