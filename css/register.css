@@ -143,3 +143,16 @@ input[type=text] {
 .forms input:focus {
     outline: none;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+
+    .forms input {
+        background-color: #000;
+    }
+
+    .forms input[type=text] {
+        border-bottom: 2px solid white;
+    }
+}
