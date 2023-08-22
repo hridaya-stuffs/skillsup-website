@@ -109,6 +109,7 @@ p {
 /* Level content styles */
 .level-content {
     -webkit-user-select: none;
+    user-select: none;
 }
 
 .level-content:hover {
