@@ -79,6 +79,7 @@ input[type=text] {
 .form-bottom {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 10px;
     margin: 1rem;
     margin-bottom: 5.5rem !important;
@@ -113,11 +114,15 @@ input[type=text] {
 
 /* Forget password link styles */
 .forget-password a {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     text-decoration: none;
 }
 
 .form input:focus {
     outline: none;
+}
+
+.remember-me label {
+    font-size: 12px !important;
 }
