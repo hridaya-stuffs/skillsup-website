@@ -1,6 +1,7 @@
 /* Reset and default styles */
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0; /* Remove default margin */
 }
 
 /* Container styles */
@@ -22,8 +23,7 @@ body {
 
 /* Scrollable div styles */
 .scrollable-div {
-    overflow: scroll;
-    overflow-y: auto;
+    overflow: auto; /* Use auto instead of scroll and overflow-y */
     border-radius: 20px;
     background-color: #7e00db;
     display: flex;
@@ -31,7 +31,7 @@ body {
     align-items: center;
     height: 14rem;
     margin: 1rem;
-    margin-bottom: 91px !important;
+    margin-bottom: 91px;
 }
 
 /* Ending text styles */
@@ -42,8 +42,7 @@ body {
     font-weight: 500;
     font-size: 17px;
     padding-bottom: 5rem;
-    -webkit-user-select: none;
-    user-select: none;
+    user-select: none; /* Removed webkit prefix */
 }
 
 /* Paragraph styles */
@@ -65,8 +64,7 @@ p {
     padding: 6px 16px;
     position: relative;
     transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
-    -webkit-user-select: none;
-    user-select: none;
+    user-select: none; /* Removed webkit prefix */
     touch-action: manipulation;
     vertical-align: middle;
     white-space: nowrap;
@@ -110,8 +108,7 @@ p {
 
 /* Level content styles */
 .level-content {
-    -webkit-user-select: none;
-    user-select: none;
+    user-select: none; /* Removed webkit prefix */
 }
 
 .level-content:hover {
