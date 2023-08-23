@@ -123,6 +123,15 @@ input[type=text] {
     outline: none;
 }
 
+.remember-me {
+    display: flex;
+    align-items: flex-end;
+}
+
 .remember-me label {
     font-size: 12px !important;
+}
+
+.remember-me input {
+    height: 11px;
 }
