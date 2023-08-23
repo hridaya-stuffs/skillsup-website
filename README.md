@@ -7,4 +7,4 @@ Figma Template Link: https://www.figma.com/file/NaKcYwlUrTjDmKA0q8Ari4/pratice2?
 
 # To-Do List
 - [ ] Integrate Dark Mode toggle.
-- [ ] Make the scrollable division UX smooth.
+- [x] Make the scrollable division UX smooth.
