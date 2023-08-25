@@ -135,3 +135,28 @@ input[type=text] {
 .remember-me input {
     height: 11px;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+
+    .form input {
+        background-color: #000;
+    }
+
+    .form input[type=text] {
+        border-bottom: 2px solid white;
+    }
+
+    .header a {
+        filter: brightness(100) invert(1);
+    }
+
+    .login hr {
+        border: 1px solid white;
+    }
+
+    .forget-password a {
+        color: white;
+    }
+}

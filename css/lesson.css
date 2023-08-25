@@ -120,3 +120,35 @@ body {
 .next {
     text-align: center;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+
+    .header a {
+        filter: brightness(100) invert(1);
+    }
+
+    .btn {
+        background-color: #fff;
+        color: black;
+    }
+
+    .btn:hover {
+        background-color: #fff;
+    }
+
+    .btn:disabled {
+        background-color: #ddd;
+        color: #222;
+    }
+
+    .btn:active {
+        color: #fff;
+        background-color: #000;
+    }
+
+    .circle {
+        color: #000;
+    }
+}

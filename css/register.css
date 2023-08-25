@@ -155,4 +155,12 @@ input[type=text] {
     .forms input[type=text] {
         border-bottom: 2px solid white;
     }
+
+    .header a {
+        filter: brightness(100) invert(1);
+    }
+
+    .logos a {
+        filter: brightness(100) invert(1);
+    }
 }
