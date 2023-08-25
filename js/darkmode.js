@@ -1,4 +1,3 @@
-// Function to set the dark mode styling
 function setDarkMode(darkMode) {
   var element = document.body;
 
@@ -9,7 +8,6 @@ function setDarkMode(darkMode) {
   }
 }
 
-// Function to toggle dark mode and update localStorage
 function toggleDarkMode() {
   var currentDarkMode = localStorage.getItem("darkMode") === "true";
   var newDarkMode = !currentDarkMode;
@@ -18,8 +16,13 @@ function toggleDarkMode() {
   setDarkMode(newDarkMode);
 }
 
-// Apply dark mode setting on page load
+// Initialize dark mode setting from localStorage or set it to false by default
 document.addEventListener("DOMContentLoaded", function () {
   var currentDarkMode = localStorage.getItem("darkMode") === "true";
   setDarkMode(currentDarkMode);
+});
+
+// Set dark mode to false by default when the tab is closed
+window.addEventListener("beforeunload", function () {
+  localStorage.setItem("darkMode", false);
 });
