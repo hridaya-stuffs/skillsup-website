@@ -119,11 +119,14 @@ p {
     margin: 1rem;
     margin-bottom: 5rem;
     padding: 20px;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
 }
 
 .scrollable-div::-webkit-scrollbar {
     width: 0;
     height: 0;
+    display: none; /* Hide scrollbar for Webkit browsers */
 }
 
 /* Level content styles */
@@ -136,12 +139,12 @@ p {
     width: 100%;
 }
 
-.level-content:not(:last-child) {
-    margin-bottom: 30px;
+.level-content:not(.selected) {
+    opacity: 0.5;
 }
 
-.scrollable-div:hover .level-content:not(.selected) {
-    opacity: 0.5;
+.level-content:not(:last-child) {
+    margin-bottom: 30px;
 }
 
 .level-content.selected {
