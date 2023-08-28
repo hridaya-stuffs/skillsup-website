@@ -144,23 +144,34 @@ input[type=text] {
     outline: none;
 }
 
+/* Corrected dark mode styles */
 .dark-mode {
     background-color: black;
     color: white;
+}
 
-    .forms input {
-        background-color: #000;
-    }
+.dark-mode input[type=text] {
+    border-bottom: 2px solid white;
+}
 
-    .forms input[type=text] {
-        border-bottom: 2px solid white;
-    }
+.dark-mode .header a,
+.dark-mode .logos a {
+    filter: brightness(100) invert(1);
+}
 
-    .header a {
-        filter: brightness(100) invert(1);
-    }
+.dark-mode .forms input {
+    background-color: #000;
+    color: white;
+}
 
-    .logos a {
-        filter: brightness(100) invert(1);
-    }
+.dark-mode .checkbox input {
+    border-bottom: 2px solid white;
+}
+
+.dark-mode .signup hr {
+    border-color: white;
+}
+
+.dark-mode .already-account a {
+    color: white;
 }

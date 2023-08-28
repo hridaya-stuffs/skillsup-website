@@ -38,6 +38,7 @@ a {
 /* Links */
 a {
     font-weight: 600;
+    color: black; /* To ensure links remain visible in both modes */
 }
 
 /* Buttons */
@@ -93,4 +94,33 @@ a {
 
 .end {
     margin-bottom: 2rem;
+}
+
+/* Corrected dark mode styles */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode a {
+    color: white;
+}
+
+.dark-mode .btn {
+    background-color: #fff;
+    color: black;
+}
+
+.dark-mode .btn:hover {
+    background-color: #fff;
+}
+
+.dark-mode .btn:disabled {
+    background-color: #ddd;
+    color: #222;
+}
+
+.dark-mode .btn:active {
+    background-color: #000;
+    color: #fff;
 }

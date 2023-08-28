@@ -136,27 +136,33 @@ input[type=text] {
     height: 11px;
 }
 
+/* Corrected dark mode styles */
 .dark-mode {
     background-color: black;
     color: white;
+}
 
-    .form input {
-        background-color: #000;
-    }
+.dark-mode ::placeholder {
+    color: #666; /* Adjust placeholder color for visibility */
+}
 
-    .form input[type=text] {
-        border-bottom: 2px solid white;
-    }
+.dark-mode .form input {
+    background-color: #000;
+    color: white; /* Adjust text color for inputs */
+}
 
-    .header a {
-        filter: brightness(100) invert(1);
-    }
+.dark-mode .form input[type=text] {
+    border-bottom: 2px solid white;
+}
 
-    .login hr {
-        border: 1px solid white;
-    }
+.dark-mode .header a {
+    filter: brightness(100) invert(1);
+}
 
-    .forget-password a {
-        color: white;
-    }
+.dark-mode .login hr {
+    border: 1px solid white;
+}
+
+.dark-mode .forget-password a {
+    color: white;
 }

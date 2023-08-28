@@ -63,11 +63,11 @@ body {
     border-radius: 6px;
     width: 5rem;
     text-align: center;
+    border: none;
 }
 
 .lang-box-1 button {
     background-color: #6244DD;
-    border-color: #6244DD;
     color: white;
     border-radius: 10px;
     height: 3rem;
@@ -75,7 +75,6 @@ body {
     font-weight: 700;
     font-size: 17px;
     line-height: 20.57px;
-    border: none !important;
 }
 
 /* Hover styles */
@@ -107,30 +106,31 @@ body {
     display: none;
 }
 
+/* Corrected dark mode styles */
 .dark-mode {
     background-color: black;
     color: white;
+}
 
-    .header a {
-        filter: brightness(100) invert(1);
-    }
+.dark-mode .header a {
+    filter: brightness(100) invert(1);
+}
 
-    .btn {
-        background-color: #fff;
-        color: black;
-    }
+.dark-mode .btn {
+    background-color: #fff;
+    color: black;
+}
 
-    .btn:hover {
-        background-color: #fff;
-    }
+.dark-mode .btn:hover {
+    background-color: #fff;
+}
 
-    .btn:disabled {
-        background-color: #ddd;
-        color: #222;
-    }
+.dark-mode .btn:disabled {
+    background-color: #ddd;
+    color: #222;
+}
 
-    .btn:active {
-        color: #fff;
-        background-color: #000;
-    }
+.dark-mode .btn:active {
+    color: #fff;
+    background-color: #000;
 }

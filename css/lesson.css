@@ -46,6 +46,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #000; /* Adjust text color for dark mode */
 }
 
 .child1 {
@@ -121,34 +122,31 @@ body {
     text-align: center;
 }
 
+/* Corrected dark mode styles */
 .dark-mode {
     background-color: black;
     color: white;
+}
 
-    .header a {
-        filter: brightness(100) invert(1);
-    }
+.dark-mode .header a {
+    filter: brightness(100) invert(1);
+}
 
-    .btn {
-        background-color: #fff;
-        color: black;
-    }
+.dark-mode .btn {
+    background-color: #fff;
+    color: black;
+}
 
-    .btn:hover {
-        background-color: #fff;
-    }
+.dark-mode .btn:hover {
+    background-color: #fff;
+}
 
-    .btn:disabled {
-        background-color: #ddd;
-        color: #222;
-    }
+.dark-mode .btn:disabled {
+    background-color: #ddd;
+    color: #222;
+}
 
-    .btn:active {
-        color: #fff;
-        background-color: #000;
-    }
-
-    .circle {
-        color: #000;
-    }
+.dark-mode .btn:active {
+    color: #fff;
+    background-color: #000;
 }
