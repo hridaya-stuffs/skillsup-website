@@ -5,8 +5,14 @@ body {
 }
 
 /* Global styles */
+
+.img-study {
+    display: flex;
+    justify-content: space-around;
+}
+
 img {
-    width: 100%;
+    width: 425px;
     height: 60vh;
 }
 
@@ -38,7 +44,8 @@ a {
 /* Links */
 a {
     font-weight: 600;
-    color: black; /* To ensure links remain visible in both modes */
+    color: black;
+    /* To ensure links remain visible in both modes */
 }
 
 /* Buttons */
