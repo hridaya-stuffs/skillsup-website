@@ -27,45 +27,48 @@
       </div>
       <div>
         <div class="dark-mode-toggle">
-          <button onclick="toggleDarkMode()">Touch here
-          </button>
+          <label class="switch">
+            <input type="checkbox" onclick="toggleDarkMode()">
+            <span class="slider round"></span>
+          </label>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="heading">
-      <div class="lang-level-heading">
-        <div class="choose">Choose your</div>
-        <div class="choose-lang-level">language level.</div>
-      </div>
+  <div class="heading">
+    <div class="lang-level-heading">
+      <div class="choose">Choose your</div>
+      <div class="choose-lang-level">language level.</div>
     </div>
+  </div>
 
-    <div class="scrollable-div">
-      <div class="level-content" onclick="selectLevel(this)">
-        <p class="levels">A1- Basic</p>
-      </div>
-      <div class="level-content" onclick="selectLevel(this)">
-        <p class="levels">A2- Elementary</p>
-      </div>
-      <div class="level-content" onclick="selectLevel(this)">
-        <p class="levels">B1- Pre-intermediate</p>
-      </div>
-      <div class="level-content" onclick="selectLevel(this)">
-        <p class="levels">B2- Intermediate</p>
-      </div>
+  <div class="scrollable-div">
+    <div class="level-content" onclick="selectLevel(this)">
+      <p class="levels">A1- Basic</p>
     </div>
+    <div class="level-content" onclick="selectLevel(this)">
+      <p class="levels">A2- Elementary</p>
+    </div>
+    <div class="level-content" onclick="selectLevel(this)">
+      <p class="levels">B1- Pre-intermediate</p>
+    </div>
+    <div class="level-content" onclick="selectLevel(this)">
+      <p class="levels">B2- Intermediate</p>
+    </div>
+  </div>
 
-    <div class="ending-text">
-      <div>or take a test to</div>
-      <div>determine the level. It will</div>
-      <div>take about 10 minutes.</div>
-    </div>
+  <div class="ending-text">
+    <div>or take a test to</div>
+    <div>determine the level. It will</div>
+    <div>take about 10 minutes.</div>
+  </div>
 
-    <div class="button-start">
-      <a href="lesson.html">
-        <button type="button" class="btn">Start Test</button>
-      </a>
-    </div>
+  <div class="button-start">
+    <a href="lesson.html">
+      <button type="button" class="btn">Start Test</button>
+    </a>
+  </div>
 
   </div>
 
@@ -73,7 +76,7 @@
   <script src="js/darkmode.js"></script>
   <script src="js/scrollable-div.js"></script>
   <script src="js/backbutton.js"></script>
-  
+
 </body>
 
 </html>
